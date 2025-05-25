@@ -1,0 +1,8 @@
+[package]
+name = "amtg"
+version = "0.1.0"
+authors = ["Xavier Lyu <xavier.lyu@proton.me>"]
+edition = "2024"
+license = "MIT"
+
+[dependencies]
