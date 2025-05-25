@@ -1,8 +1,12 @@
 [package]
-name = "amtg"
+name = "amtt"
 version = "0.1.0"
+description = "A command-line tool for managing Apple Music developer token."
 authors = ["Xavier Lyu <xavier.lyu@proton.me>"]
 edition = "2024"
 license = "MIT"
 
 [dependencies]
+anyhow = "1.0.98"
+clap = { version = "4.5.39", features = ["derive"] }
+jwt-simple = "0.12.12"
